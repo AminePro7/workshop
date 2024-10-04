@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS workshop;
+
+USE workshop;
+
+CREATE TABLE IF NOT EXISTS users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    firstname VARCHAR(100),
+    email VARCHAR(100)
+);
